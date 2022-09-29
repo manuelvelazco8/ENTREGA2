@@ -82,15 +82,14 @@ main div .caja8p {
 footer div #exampleFormControlInput1 {
   width: 70%;
 }
-
 footer div .btn {
   background-color: rgb(76, 118, 207);
   width: 340px;
 }
 footer div #footer h5 {
   padding-top: 6%;
-  padding-left: 15%;
-  padding-right: 6%;
+  padding-left: 12%;
+  padding-right: 10%;
 }
 footer div #footercontact h5 {
   padding: 6%;
@@ -101,4 +100,123 @@ footer div #newsletter h4 {
 }
 footer div .buton {
   padding: 5%;
+}
+
+/****ABOUT US****/
+#header2 {
+  height: 10vh;
+}
+
+#main2 {
+  height: 250vh;
+}
+
+#footer2 {
+  height: 58vh;
+}
+
+main #section2aboutus img {
+  border-radius: 10% !important;
+}
+main #imgaboutus img {
+  border-radius: 2%;
+}
+main #ourstory h4 {
+  padding: 8%;
+}
+
+/****SERVICES****/
+#header4 {
+  height: 10vh;
+}
+
+#main4 {
+  height: 180vh;
+}
+
+#footer4 {
+  height: 58vh;
+}
+
+main #heading2 {
+  padding: 0% 5% 0% 5%;
+}
+main #heading2 h2 {
+  font-size: 40px !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+main #heading3 {
+  padding: 0% 5% 0% 5%;
+}
+main #heading3 h4 {
+  padding-bottom: 2% !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+main #text1 h4 {
+  padding: 18% !important;
+  text-align: center;
+}
+main #text2 h4 {
+  padding: 15% !important;
+  text-align: center;
+}
+main #text3 h4 {
+  padding: 18% !important;
+  text-align: center;
+}
+main #text1 img {
+  padding: 4% !important;
+}
+main #text2 img {
+  padding: 10% !important;
+}
+
+/****TEAM****/
+#header3 {
+  height: 10vh;
+}
+
+#main3 {
+  height: 280vh;
+}
+
+#footer3 {
+  height: 58vh;
+}
+
+main .caja16 {
+  font-size: 110%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 600px;
+  width: 30%;
+}
+main .caja17 {
+  font-size: 110%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 600px;
+  width: 30%;
+}
+main .caja16container {
+  width: 500px;
+  height: 600px;
+  background-color: rgb(34, 83, 146);
+  border-radius: 20px;
+}
+main .caja16container img {
+  padding: 65px;
+  border-radius: 50%;
+}
+main .caja17container {
+  width: 500px;
+  height: 600px;
+  background-color: rgb(34, 83, 146);
+  border-radius: 20px;
+}
+main .caja17container img {
+  padding: 65px;
+  border-radius: 50%;
 }
