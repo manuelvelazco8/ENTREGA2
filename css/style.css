@@ -15,7 +15,7 @@ body {
   height: 50vh;
 }
 
-main .header {
+main div .header {
   height: 700px;
   width: 100%;
   background-image: url(/assests/dillon-kydd-XGvwt544g8k-unsplash.jpg);
@@ -23,35 +23,31 @@ main .header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-main .header h3 {
+main div .header h3 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-top: 235px;
   color: white;
   text-align: center;
 }
-main .btn {
-  margin-top: 10%;
-  margin-left: 42%;
-  font-size: 30px;
+main div .btnhome {
+  font-size: 1.5rem;
   color: white;
   font-weight: bold;
-  width: 15%;
-  text-align: center;
+  height: 8%;
+  width: 200px;
   border-radius: 10px;
   background-color: rgb(231, 60, 61);
-  text-decoration: none;
   overflow: hidden;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  transition: 0.2s;
 }
-main .btn:hover {
+main div .btnhome:hover {
   background: rgb(255, 91, 91);
   -webkit-box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
-  box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+          box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
-main section .caja7 {
+main div .caja7 {
   display: inline-block;
   height: 650px;
   width: 80%;
@@ -61,7 +57,7 @@ main section .caja7 {
   margin-left: 40px;
   border-radius: 15px;
 }
-main section .caja8 {
+main div .caja8 {
   height: 650px;
   width: 80%;
   float: right;
@@ -72,140 +68,37 @@ main section .caja8 {
   margin-right: 30px;
   border-radius: 15px;
 }
-main section .caja7p {
+main div .caja7p {
   padding-top: 50px;
   text-align: center;
   line-height: 50px;
 }
-main section .caja8p {
+main div .caja8p {
   padding-top: 50px;
   text-align: center;
   line-height: 50px;
 }
 
-footer #exampleFormControlInput1 {
+footer div #exampleFormControlInput1 {
   width: 70%;
 }
-footer .btn {
+
+footer div .btn {
   background-color: rgb(76, 118, 207);
   width: 340px;
 }
-footer #footer h5 {
+footer div #footer h5 {
   padding-top: 6%;
-  padding-left: 12%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 6%;
 }
-footer #footercontact h5 {
+footer div #footercontact h5 {
   padding: 6%;
 }
-footer #newsletter h4 {
+footer div #newsletter h4 {
   padding-top: 11%;
   padding-bottom: 10%;
 }
-footer .buton {
+footer div .buton {
   padding: 5%;
-}
-
-#header2 {
-  height: 10vh;
-}
-
-#main2 {
-  height: 250vh;
-}
-
-#footer2 {
-  height: 58vh;
-}
-
-main #section2aboutus img {
-  border-radius: 10% !important;
-}
-main #imgaboutus img {
-  border-radius: 2%;
-}
-main #ourstory h4 {
-  padding: 8%;
-}
-
-#header4 {
-  height: 10vh;
-}
-
-#main4 {
-  height: 100vh;
-}
-
-#footer4 {
-  height: 58vh;
-}
-
-main #heading2 h2 {
-  font-size: 40px !important;
-  padding-left: 5% !important;
-  padding-right: 5% !important;
-}
-main #heading3 h4 {
-  padding-bottom: 2% !important;
-  padding-left: 5% !important;
-  padding-right: 5% !important;
-}
-main #text1 h4 {
-  padding: 15% !important;
-}
-main #text2 h4 {
-  padding: 9% !important;
-}
-main #text1 img {
-  padding: 4% !important;
-}
-main #text2 img {
-  padding: 10% !important;
-}
-
-#header3 {
-  height: 10vh;
-}
-
-#main3 {
-  height: 280vh;
-}
-
-#footer3 {
-  height: 58vh;
-}
-
-main .caja16 {
-  font-size: 110%;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  height: 500px;
-  width: 30%;
-}
-main .caja17 {
-  font-size: 110%;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  height: 500px;
-  width: 30%;
-}
-main .caja16container {
-  width: 500px;
-  height: 600px;
-  background-color: rgb(34, 83, 146);
-  border-radius: 20px;
-}
-main .caja16container img {
-  padding: 65px;
-  border-radius: 50%;
-}
-main .caja17container {
-  width: 500px;
-  height: 600px;
-  background-color: rgb(34, 83, 146);
-  border-radius: 20px;
-}
-main .caja17container img {
-  padding: 65px;
-  border-radius: 50%;
 }

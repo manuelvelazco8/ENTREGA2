@@ -1,78 +1,78 @@
 body {
-    width: 100vw;
-    height: 100vh;
+ width: 100vw;
+ height: 100vh;
 }
-
+  
 #header {
-    height: 10vh;
+ height: 10vh;
 }
-
+  
 #main {
-    height: 700vh;
+ height: 700vh;
 }
-
+  
 #footer {
-    height: 50vh;
+ height: 50vh;
 }
-
 
 main {
 
-    .header {
-        height: 700px;
-        width: 100%;
-        background-image: url(/assests/dillon-kydd-XGvwt544g8k-unsplash.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
+       div {
+             .header {
+             height: 700px;
+             width: 100%;
+             background-image: url(/assests/dillon-kydd-XGvwt544g8k-unsplash.jpg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             }
+  
       
-      .header h3 {
-        font-size: 2.5rem;
-        font-weight: 700;
-        margin-top: 235px;
-        color: white;
-        text-align: center;
-      }
-
-     
-      .btn {
-        margin-top: 10%;
-        margin-left: 42%;
-        font-size: 30px;
-        color: white;
-        font-weight: bold;
-        width: 15%;
-        text-align: center;
-        border-radius: 10px;
-        background-color: rgb(231, 60, 61);
-        text-decoration: none;
-        overflow: hidden;
-        transition: 0.2s;
-        transition: 0.2s;
-      }
-
-      .btn:hover {
-        background: rgb(255, 91, 91);
-        -webkit-box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
-                box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
-      }
-
-    section {
-        .caja7 {
+           .header h3 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-top: 235px;
+            color: $color-especial;
+            text-align: center;
+            }
+   
+      
+            .btnhome {
+             font-size: 1.5rem;
+             color: white;
+             font-weight: bold;
+             height: 8%;
+             width: 200px;
+             border-radius: 10px;
+             background-color: rgb(231, 60, 61);
+             overflow: hidden;
+             transition: 0.2s;
+            }
+  
+  
+            .btnhome:hover {
+             background: rgb(255, 91, 91);
+             box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+             }
+            
+    }
+   
+  
+           div {
+            .caja7 {
             display: inline-block;
             height: 650px;
-            width: 600px;
+            width: 80%;
             background: rgb(73,103,255);
             background: radial-gradient(circle, rgba(73,103,255,1) 0%, rgba(70,217,252,1) 100%);
             margin-top: 50px;
             margin-left: 40px;
             border-radius: 15px;
-         }
-         
-         .caja8 {
+            }
+  
+            .caja8 {
              height: 650px;
-             width: 600px;
+             width: 80%;
              float: right;
              background: rgb(73,103,255);
              background: radial-gradient(circle, rgba(73,103,255,1) 0%, rgba(70,217,252,1) 100%);
@@ -80,48 +80,55 @@ main {
              margin-left: 30px;
              margin-right: 30px;
              border-radius: 15px;
-         }
-        
-         .caja7p {
+             }
+  
+  
+            .caja7p {
             padding-top: 50px;
             text-align: center;
             line-height: 50px;
-        }
-        
-        .caja8p {
+            }
+  
+  
+            .caja8p {
             padding-top: 50px;
             text-align: center;
             line-height: 50px;
-        }
+            }
     }
 }
 
 footer {
-    #exampleFormControlInput1 {
+
+   div {
+       #exampleFormControlInput1 {
         width: 70%;
-    }
-    
-    .btn {
+      }
+      
+      .btn {
         background-color: rgb(76, 118, 207);
         width: 340px;
-    }
-    
-    #footer h5 {
+      }
+   }
+     
+  div {
+      #footer h5 {
         padding-top: 6%;
         padding-left: 12%;
         padding-right: 10%;
-    }
-    
-    #footercontact h5 {
+      }
+      
+      #footercontact h5 {
         padding: 6%;
-    }
-    
-    #newsletter h4{
+      }
+      
+      #newsletter h4{
         padding-top: 11%;
         padding-bottom: 10%;
-    }
-    
-    .buton {
+      }
+      
+      .buton {
         padding: 5%;
-    }
+      }
+   }
 }
