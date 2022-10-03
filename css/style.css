@@ -1,5 +1,5 @@
 body {
-  width: 100vw;
+  width: 99%;
   height: 100vh;
 }
 
@@ -18,7 +18,7 @@ body {
 main div .header {
   height: 700px;
   width: 100%;
-  background-image: url(/assests/dillon-kydd-XGvwt544g8k-unsplash.jpg);
+  background-image: url(../assests/dillon-kydd-XGvwt544g8k-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,8 +51,9 @@ main div .caja7 {
   display: inline-block;
   height: 650px;
   width: 80%;
-  background: rgb(73, 103, 255);
-  background: radial-gradient(circle, rgb(73, 103, 255) 0%, rgb(70, 217, 252) 100%);
+  background: rgb(120, 229, 255);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(120, 229, 255)), color-stop(50%, rgb(78, 140, 245)), to(rgb(51, 100, 255)));
+  background: linear-gradient(0deg, rgb(120, 229, 255) 0%, rgb(78, 140, 245) 50%, rgb(51, 100, 255) 100%);
   margin-top: 50px;
   margin-left: 40px;
   border-radius: 15px;
@@ -61,8 +62,9 @@ main div .caja8 {
   height: 650px;
   width: 80%;
   float: right;
-  background: rgb(73, 103, 255);
-  background: radial-gradient(circle, rgb(73, 103, 255) 0%, rgb(70, 217, 252) 100%);
+  background: rgb(120, 229, 255);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(120, 229, 255)), color-stop(50%, rgb(78, 140, 245)), to(rgb(51, 100, 255)));
+  background: linear-gradient(0deg, rgb(120, 229, 255) 0%, rgb(78, 140, 245) 50%, rgb(51, 100, 255) 100%);
   margin-top: 50px;
   margin-left: 30px;
   margin-right: 30px;
@@ -80,15 +82,15 @@ main div .caja8p {
 }
 
 footer div #exampleFormControlInput1 {
-  width: 70%;
+  width: 80%;
 }
 footer div .btn {
-  background-color: rgb(76, 118, 207);
+  background-color: rgb(26, 76, 182);
   width: 340px;
 }
 footer div #footer h5 {
   padding-top: 6%;
-  padding-left: 12%;
+  padding-left: 15%;
   padding-right: 10%;
 }
 footer div #footercontact h5 {
@@ -190,19 +192,25 @@ main .caja16 {
   font-size: 110%;
   color: rgb(255, 255, 255);
   text-align: center;
-  height: 600px;
+  height: 800px;
   width: 30%;
+}
+main .caja16 p {
+  margin: 0% 5% 0% 5%;
 }
 main .caja17 {
   font-size: 110%;
   color: rgb(255, 255, 255);
   text-align: center;
-  height: 600px;
+  height: 800px;
   width: 30%;
+}
+main .caja17 p {
+  padding: 0% 5% 0% 5%;
 }
 main .caja16container {
   width: 500px;
-  height: 600px;
+  height: 700px;
   background-color: rgb(34, 83, 146);
   border-radius: 20px;
 }
@@ -212,11 +220,18 @@ main .caja16container img {
 }
 main .caja17container {
   width: 500px;
-  height: 600px;
+  height: 700px;
   background-color: rgb(34, 83, 146);
   border-radius: 20px;
 }
 main .caja17container img {
   padding: 65px;
   border-radius: 50%;
+}
+main .socialicons {
+  margin-top: 20px;
+}
+main .socialicons a {
+  color: white;
+  font-size: 25px;
 }
