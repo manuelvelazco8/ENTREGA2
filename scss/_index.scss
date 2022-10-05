@@ -18,9 +18,16 @@ body {
 main {
 
        div {
-            @mixin horizontal-list
-           
-  
+            
+          .header {
+          height: 700px;
+          width: 100%;
+          background-image: url(../assests/dillon-kydd-XGvwt544g8k-unsplash.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+           }
+            
       
            .header h3 {
             font-size: 2.5rem;
@@ -42,6 +49,11 @@ main {
              overflow: hidden;
              transition: 0.2s;
             }
+
+            .btnhome--eliminar {
+              @extend .btnhome;
+              background-color: rgb(120, 120, 253);
+            }
   
   
             .btnhome:hover {
@@ -52,7 +64,7 @@ main {
     }
    
   
-       div {
+           div {
             .caja7 {
             display: inline-block;
             height: 650px;
@@ -92,12 +104,11 @@ main {
     }
 }
 
-
 footer {
 
    div {
        #exampleFormControlInput1 {
-        width: 80%;
+        width: 340px;
       }
       
       .btn {

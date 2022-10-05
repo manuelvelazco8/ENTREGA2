@@ -30,7 +30,7 @@ main div .header h3 {
   color: white;
   text-align: center;
 }
-main div .btnhome {
+main div .btnhome, main div .btnhome--eliminar {
   font-size: 1.5rem;
   color: white;
   font-weight: bold;
@@ -42,7 +42,10 @@ main div .btnhome {
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-main div .btnhome:hover {
+main div .btnhome--eliminar {
+  background-color: rgb(120, 120, 253);
+}
+main div .btnhome:hover, main div .btnhome--eliminar:hover {
   background: rgb(255, 91, 91);
   -webkit-box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
           box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
@@ -82,7 +85,7 @@ main div .caja8p {
 }
 
 footer div #exampleFormControlInput1 {
-  width: 80%;
+  width: 340px;
 }
 footer div .btn {
   background-color: rgb(26, 76, 182);
@@ -181,7 +184,7 @@ main #text2 img {
 }
 
 #main3 {
-  height: 280vh;
+  height: 250vh;
 }
 
 #footer3 {
