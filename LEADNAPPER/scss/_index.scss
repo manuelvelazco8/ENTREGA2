@@ -1,6 +1,7 @@
 body {
  width: 99%;
  height: 100vh;
+ box-sizing: border-box !important;
 }
   
 #header {
@@ -52,13 +53,14 @@ main {
 
             .btnhome--eliminar {
               @extend .btnhome;
-              background-color: rgb(120, 120, 253);
+              background-color: rgb(231, 60, 63);
             }
   
   
             .btnhome:hover {
              background: rgb(255, 91, 91);
              box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+             color: $color-texto;
              }
             
     }
@@ -66,25 +68,20 @@ main {
   
            div {
             .caja7 {
-            display: inline-block;
-            height: 650px;
+            height: 95%;
             width: 80%;
             background: rgb(120,229,255);
             background: linear-gradient(0deg, rgba(120,229,255,1) 0%, rgba(78,140,245,1) 50%, rgba(51,100,255,1) 100%);
             margin-top: 50px;
-            margin-left: 40px;
             border-radius: 15px;
             }
   
             .caja8 {
-             height: 650px;
+             height: 95%;
              width: 80%;
-             float: right;
              background: rgb(120,229,255);
              background: linear-gradient(0deg, rgba(120,229,255,1) 0%, rgba(78,140,245,1) 50%, rgba(51,100,255,1) 100%);
              margin-top: 50px;
-             margin-left: 30px;
-             margin-right: 30px;
              border-radius: 15px;
              }
   
@@ -101,31 +98,32 @@ main {
             text-align: center;
             line-height: 50px;
             }
+
+           
+            .caja9 iframe {
+            width: 520px;
+            height: 350px;
+            }
+
     }
 }
 
 footer {
 
-   div {
-       #exampleFormControlInput1 {
-        width: 340px;
-      }
-      
-      .btn {
-        background-color: rgb(26, 76, 182);
-        width: 340px;
-      }
-   }
+ @include footer;
+   
+
      
   div {
+
       #footer h5 {
-        padding-top: 6%;
+        
         padding-left: 15%;
         padding-right: 10%;
       }
     
       #footercontact h5 {
-        padding: 6%;
+        padding: 7%;
       }
       
       #newsletter h4{

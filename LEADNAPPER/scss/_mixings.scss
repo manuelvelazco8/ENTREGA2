@@ -1,0 +1,35 @@
+@mixin index {
+    
+    body {
+     width: 99%;
+     height: 100vh;
+    }
+         
+    #header {
+     height: 10vh;
+    }
+         
+    #main {
+     height: 700vh;
+    }
+         
+    #footer {
+     height: 50vh;
+    }
+}
+
+@mixin footer { 
+  @include index;
+
+        div {
+            #exampleFormControlInput1 {
+             width: 340px;
+           }
+     
+           
+           .btn {
+             background-color: $color-boton;
+             width: 340px;
+           }
+        }
+}
