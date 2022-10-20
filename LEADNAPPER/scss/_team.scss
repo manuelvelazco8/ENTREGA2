@@ -1,27 +1,10 @@
 /****TEAM****/
-  
-#header3 {
-    height: 10vh;
-  }
-  
-  #main3 {
-    height: 250vh;
-  }
-  
-  #footer3 {
-    height: 58vh;
-  }
-  
 
 main {
-  
-  .caja16 {
-    height: 750px !important;
-  }
 
   .caja16 {
     font-size: 1rem;
-    color: rgb(255, 255, 255);
+    color: $color-texto;
     text-align: center;
     width: 20%;
     padding: 20% 0 20% 0;
@@ -30,28 +13,35 @@ main {
   .caja16 p {
     margin: 0% 5% 0% 5%;
   }
-  
+
   .caja16container {
     width: 400%;
     height: 650px;
-    background-color: rgb(34, 83, 146);
+    background-color: $cards-team;
     border-radius: 20px;
     box-shadow: 0.6em 0.6em 1.5em #8ebfff,
-                0.6em 0.6em 1.5em #97bcff;
+      0.6em 0.6em 1.5em #97bcff;
+    transition: all 400ms ease;
   }
-  
+
+
+  .caja16container:hover {
+    box-shadow: 5px 5px 20px rgba(58, 176, 231, 0.4);
+    transform: translateY(-3%);
+  }
+
   .caja16container img {
     padding: 65px;
     border-radius: 50%;
   }
-  
+
   .socialicons {
     margin-top: 10px;
   }
 
   .socialicons a {
-    color: white;
-    font-size: 25px;
+    color: $color-texto;
+    font-size: 20px;
   }
 
 }

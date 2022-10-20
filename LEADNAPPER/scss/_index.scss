@@ -1,138 +1,160 @@
-body {
- width: 99%;
- height: 100vh;
- box-sizing: border-box !important;
-}
-  
-#header {
- height: 10vh;
-}
-  
-#main {
- height: 700vh;
-}
-  
-#footer {
- height: 50vh;
-}
+@include index; 
 
 main {
 
-       div {
-            
-          .header {
-          height: 700px;
-          width: 100%;
-          background-image: url(../assests/dillon-kydd-XGvwt544g8k-unsplash.jpg);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-           }
-            
-      
-           .header h3 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-top: 235px;
-            color: $color-texto;
-            text-align: center;
-            }
-   
-      
-            .btnhome {
-             font-size: 1.5rem;
-             color: $color-texto;
-             font-weight: bold;
-             height: 8%;
-             width: 200px;
-             border-radius: 10px;
-             background-color: rgb(231, 60, 61);
-             overflow: hidden;
-             transition: 0.2s;
-            }
+  div {
 
-            .btnhome--eliminar {
-              @extend .btnhome;
-              background-color: rgb(231, 60, 63);
-            }
-  
-  
-            .btnhome:hover {
-             background: rgb(255, 91, 91);
-             box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
-             color: $color-texto;
-             }
-            
+    .header {
+      height: 700px;
+      width: 100%;
+      background-image: url(..//assests/images/dillon-kydd-XGvwt544g8k-unsplash.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
-   
-  
-           div {
-            .caja7 {
-            height: 95%;
-            width: 80%;
-            background: rgb(120,229,255);
-            background: linear-gradient(0deg, rgba(120,229,255,1) 0%, rgba(78,140,245,1) 50%, rgba(51,100,255,1) 100%);
-            margin-top: 50px;
-            border-radius: 15px;
-            }
-  
-            .caja8 {
-             height: 95%;
-             width: 80%;
-             background: rgb(120,229,255);
-             background: linear-gradient(0deg, rgba(120,229,255,1) 0%, rgba(78,140,245,1) 50%, rgba(51,100,255,1) 100%);
-             margin-top: 50px;
-             border-radius: 15px;
-             }
-  
-  
-            .caja7p {
-            padding-top: 50px;
-            text-align: center;
-            line-height: 50px;
-            }
-  
-  
-            .caja8p {
-            padding-top: 50px;
-            text-align: center;
-            line-height: 50px;
-            }
 
-           
-            .caja9 iframe {
-            width: 520px;
-            height: 350px;
-            }
-
+    .header h3 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-top: 235px;
+      color: $color-texto;
+      text-align: center;
     }
+
+    .btnhome {
+      font-size: 1.5rem;
+      color: $color-texto;
+      font-weight: bold;
+      height: 8%;
+      width: 200px;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: 0.2s;
+      background-color: $color-botonhome;
+    }
+
+    .btnhome--eliminar {
+      @extend .btnhome;
+      background-color: $color-botonhome;
+    }
+
+    .btnhome:hover {
+      background: $hover-botonhome;
+      box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+      color: $color-texto;
+    }
+
+    .bannerindex {
+      padding: 0% 0% 0% 0%;
+      width: 100%;
+    }
+
+  }
+
+  div {
+
+    .caja7 {
+      height: 95%;
+      width: 80%;
+      background: rgb(120,200,255);
+      background: linear-gradient(0deg, rgba(120,200,255,1) 0%, rgba(78,140,245,1) 46%, rgba(51,100,255,1) 100%);
+      margin-top: 50px;
+      border-radius: 15px;
+      box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.5);
+    }
+
+    .caja8 {
+      height: 95%;
+      width: 80%;
+      background: rgb(120,200,255);
+      background: linear-gradient(0deg, rgba(120,200,255,1) 0%, rgba(78,140,245,1) 46%, rgba(51,100,255,1) 100%);
+      margin-top: 50px;
+      border-radius: 15px;
+      box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.5);
+    }
+
+    .caja7p {
+      padding-top: 50px;
+      text-align: center;
+      line-height: 50px;
+    }
+
+    .caja8p {
+      padding-top: 50px;
+      text-align: center;
+      line-height: 50px;
+    }
+
+    .caja9 iframe {
+      width: 520px;
+      height: 350px;
+    }
+
+    .review1 {
+      box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2);
+      transition: all 400ms ease;
+    }
+
+    .review1:hover {
+      box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.4);
+      transform: translateY(-3%);
+    }
+
+    .review2 {
+      box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2)
+    }
+
+    .review2:hover {
+      box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.4);
+      transform: translateY(-3%);
+    }
+
+    .btn-contact {
+      background-color:  $color-boton;
+      color:white;
+    }
+
+    .btn-contact:hover {
+      background-color: $hover-boton;
+      color: $color-texto
+    }
+
+  }
 }
 
 footer {
 
- @include footer;
-   
+  @include footer;
 
-     
+
   div {
 
-      #footer h5 {
-        
-        padding-left: 15%;
-        padding-right: 10%;
-      }
-    
-      #footercontact h5 {
-        padding: 7%;
-      }
-      
-      #newsletter h4{
-        padding-top: 11%;
-        padding-bottom: 10%;
-      }
-      
-      .buton {
-        padding: 5%;
-      }
-   }
+    #footer h4 {
+      padding-top: 15%;
+      padding-bottom: 10%;
+    } 
+
+    #footer h5 {
+      padding-left: 15%;
+      padding-right: 10%;
+    }
+
+    #footercontact h5 {
+      padding: 7%;
+    }
+
+    #newsletter h4 {
+      padding-top: 11%;
+      padding-bottom: 10%;
+    }
+
+    .buton {
+      padding: 5%;
+    }
+
+    .socialicons a {
+      color: $color-texto;
+      font-size: 20px;
+    }
+  }
 }

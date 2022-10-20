@@ -1,35 +1,68 @@
 @mixin index {
     
-    body {
-     width: 99%;
-     height: 100vh;
-    }
+     body {
+      width: 100vw;
+      height: 100vh;
+      overflow-x: hidden;
+     }
          
-    #header {
-     height: 10vh;
-    }
+     #header {
+      height: 10vh;
+     }
          
-    #main {
-     height: 700vh;
-    }
+     #main {
+      height: 700vh;
+     }
          
-    #footer {
-     height: 50vh;
-    }
+     #footer {
+      height: 50vh;
+     }
+ }
+
+@mixin cajas-index {
+  div {
+    .caja7 {
+      height: 95%;
+      width: 80%;
+      background: rgb(120,229,255);
+      background: linear-gradient(0deg, rgba(120,229,255,1) 0%, rgba(78,140,245,1) 50%, rgba(51,100,255,1) 100%);
+      margin-top: 50px;
+      border-radius: 15px;
+      }
+
+    .caja7p {
+      padding-top: 50px;
+      text-align: center;
+      line-height: 50px;
+      }
+
+    .caja8p {
+      padding-top: 50px;
+      text-align: center;
+      line-height: 50px;
+     }
+  }
 }
 
-@mixin footer { 
-  @include index;
+
+ @mixin footer {
 
         div {
-            #exampleFormControlInput1 {
-             width: 340px;
-           }
+             #exampleFormControlInput1 {
+              width: 340px;
+            }
      
            
-           .btn {
-             background-color: $color-boton;
-             width: 340px;
-           }
-        }
-}
+            .btn-subscribe {
+              background-color: $color-boton;
+              color: white;
+              width: 340px;
+            }
+            
+            .btn-subscribe:hover {
+              background-color: rgb(83, 17, 226);
+              color: white;
+            }
+       }
+ }
+

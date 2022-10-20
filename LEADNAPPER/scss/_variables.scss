@@ -1,2 +1,15 @@
+// COLORS //
 $color-texto: white;
-$color-boton: rgb(25, 25, 192)
+$color-boton: rgb(97, 23, 255);
+$color-botonhome: rgb(231, 60, 61);
+$hover-botonhome: rgb(255, 91, 91);
+$hover-boton: rgb(83, 17, 226);
+$cards-team: rgb(34, 83, 146);
+
+
+// PALLET //
+$pallet: (
+    "white": $color-texto,
+    "purple": $color-boton,
+    "red": $color-botonhome,
+);
